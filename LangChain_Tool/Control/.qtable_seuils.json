@@ -1,0 +1,12 @@
+{
+  "seuils": {
+    "MULTIMEDIA": 4.25,
+    "BRONZE": 1.8
+  },
+  "q_table": {
+    "('PROFIL_GLOBAL', 'BAS', 0)": 0.03,
+    "('PROFIL_PATH', 'BAS', 0)": -0.03,
+    "('PROFIL_PATH', 'BAS', 1)": -0.03
+  },
+  "historique": {}
+}

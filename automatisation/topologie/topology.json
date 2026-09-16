@@ -1,0 +1,135 @@
+{
+    "switches": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9"
+    ],
+    "hosts": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "h7",
+        "h8",
+        "h9",
+        "h10"
+    ],
+    "links": [
+        {
+            "node1": "h10",
+            "port1": 1,
+            "node2": "s1",
+            "port2": 1
+        },
+        {
+            "node1": "h9",
+            "port1": 1,
+            "node2": "s2",
+            "port2": 1
+        },
+        {
+            "node1": "h8",
+            "port1": 1,
+            "node2": "s2",
+            "port2": 2
+        },
+        {
+            "node1": "h7",
+            "port1": 1,
+            "node2": "s2",
+            "port2": 3
+        },
+        {
+            "node1": "h6",
+            "port1": 1,
+            "node2": "s3",
+            "port2": 1
+        },
+        {
+            "node1": "h5",
+            "port1": 1,
+            "node2": "s3",
+            "port2": 2
+        },
+        {
+            "node1": "h4",
+            "port1": 1,
+            "node2": "s3",
+            "port2": 3
+        },
+        {
+            "node1": "h3",
+            "port1": 1,
+            "node2": "s4",
+            "port2": 1
+        },
+        {
+            "node1": "h2",
+            "port1": 1,
+            "node2": "s5",
+            "port2": 1
+        },
+        {
+            "node1": "h1",
+            "port1": 1,
+            "node2": "s6",
+            "port2": 1
+        },
+        {
+            "node1": "s1",
+            "port1": 2,
+            "node2": "s7",
+            "port2": 1
+        },
+        {
+            "node1": "s2",
+            "port1": 4,
+            "node2": "s7",
+            "port2": 2
+        },
+        {
+            "node1": "s3",
+            "port1": 4,
+            "node2": "s7",
+            "port2": 3
+        },
+        {
+            "node1": "s4",
+            "port1": 2,
+            "node2": "s9",
+            "port2": 1
+        },
+        {
+            "node1": "s5",
+            "port1": 2,
+            "node2": "s9",
+            "port2": 2
+        },
+        {
+            "node1": "s6",
+            "port1": 2,
+            "node2": "s9",
+            "port2": 3
+        },
+        {
+            "node1": "s7",
+            "port1": 4,
+            "node2": "s8",
+            "port2": 1
+        },
+        {
+            "node1": "s9",
+            "port1": 4,
+            "node2": "s8",
+            "port2": 2
+        }
+    ]
+}

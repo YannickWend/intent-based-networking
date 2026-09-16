@@ -1,0 +1,9 @@
+Flask
+requests
+numpy
+scikit-learn
+python-dotenv
+langchain
+langchain-groq
+recognizers-text-number
+webob

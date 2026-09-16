@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SDN Network Monitor</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='ryu.topology.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> </head>
+</head>
+<body>
+    <header class="main-header">
+    <div class="nav-left">
+        <nav class="nav-menu">
+            <div class="status-indicator">
+                <span class="dot green"></span> <span id="count-up">0</span> Up
+                <span class="dot red"></span> <span id="count-down">0</span> Down
+            </div>
+        </nav>
+    </div>
+    <div class="nav-right">
+        <button class="icon-btn" onclick="toggleStats()">📊 Débit</button>
+        <div class="contact-btn">Statut : Connecté</div>
+    </div>
+   </header>
+
+    <div class="main-container">
+    <aside class="chat-section">
+        <div class="chat-header">🤖 SDN AI Assistant</div>
+        <div id="chat-window" class="chat-window">
+            </div>
+        <div class="chat-input-area">
+            <textarea id="user-input" placeholder="Décrivez l'action réseau..." rows="1"></textarea>
+            <button id="send-btn" onclick="sendMessage()">Envoyer</button>
+        </div>
+    </aside>
+
+    <aside class="missions-panel">
+    <div class="missions-header">
+        📋 Missions actives
+        <span id="missions-count" class="missions-badge">0</span>
+    </div>
+    <div id="missions-list" class="missions-list">
+        <div class="missions-empty">Aucune mission active</div>
+    </div>
+    <div class="missions-footer">
+        <button onclick="refreshMissions()" class="btn-refresh">↻ Actualiser</button>
+    </div>
+    </aside>
+       
+    <main id="topology">
+    <div id="stats-overlay" class="stats-card" style="display:none;">
+        <h3>📈 Consommation Globale</h3>
+        <canvas id="throughputChart"></canvas>
+        <div style="text-align:center; font-size: 18px; font-weight: bold; color: #2ecc71; margin-top: 10px;">
+            <span id="live-total">0</span> Mbps
+        </div>
+    </div>
+</main>
+    <script src="{{ url_for('static', filename='dashboard_engine.js') }}"></script>
+    
+</body>
+</html>

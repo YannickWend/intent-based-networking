@@ -1,0 +1,38 @@
+{
+    "LEXIQUES": {
+        "BREAK": [
+            "coupe", "isole", "break", "éteint", "bloque", "neutralise", "interrompt", "stoppe",
+            "débranche", "désactive", "offline", "down", "suspend", "interdit", "ferme", "kill",
+            "déconnecte", "déconnecté", "hors ligne", "hors-ligne",
+            "supprime l accès", "retire", "prive", "empêche", "banni",
+            "met hors service", "mets hors service", "met en pause", "mets en pause",
+            "arrête", "coupe le lien", "désactiver", "bloquer", "isoler", "couper"
+        ],
+        "RESTORE": [
+            "rétablit", "rétablis", "restore", "allume", "reconnecte", "active", "débloque",
+            "autorise", "remet", "remets", "online", "up", "relance", "ouvre", "reset", "actif",
+            "rétablir", "réactive", "réactiver", "rebranche", "redémarre", "rallume",
+            "remet en service", "remets en service", "remet en ligne", "remets en ligne",
+            "remet en marche", "rétablir la connexion", "remettre", "réintègre"
+        ],
+        "QOS": [
+            "priorise", "accélère", "favorise", "booste", "boost", "optimise", "garantit",
+            "fluidifie", "privilégie", "vitesse", "débit", "latence", "réactivité",
+            "performance", "rapide", "urgent", "priorité", "améliore", "assure",
+            "garanti", "garantir", "améliorer", "optimiser", "prioriser", "accélérer"
+        ]
+    },
+    "QOS_MAP": {
+        "STANDARD":   {"id": 0, "desc": "Mode normal par défaut"},
+        "MULTIMEDIA": {"id": 1, "desc": "Optimisé pour Vidéo/Audio (Zoom, Teams)"},
+        "BRONZE":     {"id": 2, "desc": "Basse priorité / Invités"},
+        "GOLD":       {"id": 3, "desc": "Haute priorité / Latence minimale"},
+        "SILVER":     {"id": 4, "desc": "Priorité moyenne / Débit maximal"}
+    },
+    "ACTION_RULES": {
+        "BREAK":        {"tool": "manage_link",            "action": "break",   "min_hosts": 1},
+        "RESTORE":      {"tool": "manage_link",            "action": "restore", "min_hosts": 1},
+        "QOS":          {"tool": "set_path_qos",           "action": "apply",   "min_hosts": 2},
+        "NETWORK_WIDE": {"tool": "set_network_wide_policy","action": "global",  "min_hosts": 0}
+    }
+}

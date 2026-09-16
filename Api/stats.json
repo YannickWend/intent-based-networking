@@ -1,0 +1,148 @@
+{
+    "switches": [
+        {
+            "id": 6,
+            "name": "s6",
+            "latency_ctrl": 33.01,
+            "ports": [
+                {
+                    "port_no": 1,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 4,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 2,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 3,
+                    "rx": 0.0,
+                    "tx": 0.0
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "s2",
+            "latency_ctrl": 55.33,
+            "ports": [
+                {
+                    "port_no": 1,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 2,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 3,
+                    "rx": 0.0,
+                    "tx": 0.0
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "s5",
+            "latency_ctrl": 8.94,
+            "ports": [
+                {
+                    "port_no": 1,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 2,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 3,
+                    "rx": 0.0,
+                    "tx": 0.0
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "s1",
+            "latency_ctrl": 42.9,
+            "ports": [
+                {
+                    "port_no": 4,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 1,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 2,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 3,
+                    "rx": 0.0,
+                    "tx": 0.0
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "s3",
+            "latency_ctrl": 57.2,
+            "ports": [
+                {
+                    "port_no": 1,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 2,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 3,
+                    "rx": 0.0,
+                    "tx": 0.0
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "s4",
+            "latency_ctrl": 37.12,
+            "ports": [
+                {
+                    "port_no": 1,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 2,
+                    "rx": 0.0,
+                    "tx": 0.0
+                },
+                {
+                    "port_no": 3,
+                    "rx": 0.0,
+                    "tx": 0.0
+                }
+            ]
+        }
+    ],
+    "network_latency": {},
+    "last_update": "10:51:46"
+}
